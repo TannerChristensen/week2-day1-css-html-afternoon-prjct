@@ -89,7 +89,7 @@ header li a {
      width: 300px;
      /* background-color: cadetblue; */
      justify-content: space-between;
-     margin-left: 350px;
+     margin-left: 440px;
      margin-top: 25px;
      position: fixed;
  }
@@ -98,7 +98,52 @@ header li a {
     display: flex;
     color: black;
     font-size: 20px;
-    margin-left: 35px;
+    margin-left: 30px;
     /* position: fixed; */
 
 }
+
+.Left-Side {
+    display: flex;
+    margin-top: 10vh;
+    background-color: whitesmoke;
+    width: 31%;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+
+.Big-Circle {
+    margin-left: 180px;
+    background-color: lightgray;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+.Left-Side ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+
+}
+
+.Left-Side li a {
+    display: flex;
+    color: black;
+    font-size: 15px;
+}
+
+.Edit-Profile {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    margin-left: 140px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+
